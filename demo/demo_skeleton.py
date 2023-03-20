@@ -33,7 +33,7 @@ except ImportError:
     raise ImportError('Please install moviepy to enable output file')
 
 FONTFACE = cv2.FONT_HERSHEY_DUPLEX
-FONTSCALE = 0.75
+FONTSCALE = 0.4
 FONTCOLOR = (255, 255, 255)  # BGR, white
 THICKNESS = 1
 LINETYPE = 1
